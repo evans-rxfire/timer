@@ -16,15 +16,29 @@ body {
     transform: translate(-50%, -50%);
     border: 3px solid black;
     border-radius: 5px;
-    background-color: lightgrey;
+    background-color: grey;
 }
 
 #display-container {
     border: 1px solid black;
     border-radius: 2px;
-    background-color: white;
+    background-color: lightgrey;
     width: 95%;
     height: 85%;
+}
+
+#timer-display {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 400px;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    // border: 1px solid blue;
+    font-family: "alarm clock", sans-serif;
+    font-weight: bold;
+    font-size: 8rem;
+    text-align: center;
 }
 
 #controls-container {
