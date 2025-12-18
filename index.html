@@ -11,14 +11,18 @@
 <body>
     <div id="timer-container">
         <div id="display-container">
-            <div id="timer-display"></div>
+            <div id="timer-display">
+                <span id="minutes"></span>
+                <span id="colon">:</span>
+                <span id="seconds"></span>
+            </div>
         </div>
 
         <div id="controls-container">
             <div id="input-container">
                 <div class="input">
-                    <label for="set-timer-length">Timer Length(min)</label>
-                    <input type="number" name="set-timer-length" id="set-timer-length" min="10" max="60" value="25">
+                    <label for="set-work-length">Work Length(min)</label>
+                    <input type="number" name="set-work-length" id="set-work-length" min="10" max="60" value="25">
                 </div>
                 <div class="input">
                     <label for="set-break-length">Break Lenght(min)</label>
@@ -27,9 +31,9 @@
             </div>
             
             <div id="button-container">
-                <button type="button" id="start-button">Start</button>
-                <button type="button" id="stop-button">Stop</button>
-                <button type="reset" id="reset-button">Reset Timer</button>
+                <button type="button" id="start-btn">Start</button>
+                <button type="button" id="stop-btn">Stop</button>
+                <button type="reset" id="reset-btn">Reset Timer</button>
             </div>
             
         </div>
