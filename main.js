@@ -14,7 +14,7 @@ const timerStates = [
     {
         name: "work",
         inputId: "set-work-length",
-        backgroundColor: "#CD5C5C",
+        backgroundColor: "#1E90FF",
         color: "#228B22",
         sound: "sounds/alarm2.ogg"
     },
